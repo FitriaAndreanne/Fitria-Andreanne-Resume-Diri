@@ -1,0 +1,75 @@
+body{
+    background-color:#d5b688;
+    font-family:"calibri";
+    color:#382f30;
+}
+
+
+
+.tabel{
+    width: 500px;
+}
+
+.tahun{
+    text-align: center;
+} 
+
+.sub-judul-1{
+    text-shadow: 2px 2px 5px var(--warnacoklat)
+}
+
+.biodata{
+    margin-left: 190px;
+    margin-top: -175px;
+    font-size: 17px;
+    float:right;
+    max-width: 80%;
+}
+
+.kalimat-1{
+    width: 80%;
+}
+
+
+.judul{
+    font-family:"Gill Sans";
+    background-color:#f4e3ce;
+    text-align: center;
+    width: 300px;
+    max-height: 25px;
+    color:#382f30;
+    text-shadow: 2px 2px 5px #382f30;
+    margin: 50px 40px 30px 20px;
+    padding-bottom: 10px;
+}
+
+.navbar{
+    margin-right: 18px;
+}
+
+.navbar-border{
+    width:50%;
+    border:1px solid var(--warnaputih);
+    margin-top:10px
+}
+
+.navbar-link{
+    text-decoration: none;
+    font-size: 22px;
+    color:var(--warnagading);
+    text-shadow: 2px 2px 5px #382f30;
+}
+
+.navbar-link:hover{
+    text-decoration: none;
+    font-size: 22px;
+    color:var(--warnacoklat);
+    text-shadow: none;
+}
+
+:root{
+    --warnacoklat: #382f30;
+    --warnacoklatmuda: #d5b688;
+    --warnagading: #f4e3ce;
+    --warnaputih: white;
+}
